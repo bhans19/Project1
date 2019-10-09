@@ -113,6 +113,7 @@ class Main {
             // Mark visited of current cell as false and remove last char
             str = str.substring(0, str.length() - 1);
             visited[i][j] = false;
+
         }
     }
 
